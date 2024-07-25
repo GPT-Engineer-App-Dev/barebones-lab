@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Index = () => {
+const About = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <header className="bg-gray-100 py-4">
@@ -14,8 +14,8 @@ const Index = () => {
       </header>
 
       <main className="flex-grow container mx-auto px-4 py-8">
-        <h2 className="text-3xl font-bold mb-4">Welcome to the Bare Bones App</h2>
-        <p className="text-lg">This is a minimal web application that you can modify and build upon.</p>
+        <h2 className="text-3xl font-bold mb-4">About Bare Bones App</h2>
+        <p className="text-lg">This application serves as a starting point for your web development projects.</p>
       </main>
 
       <footer className="bg-gray-100 py-4">
@@ -27,4 +27,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default About;

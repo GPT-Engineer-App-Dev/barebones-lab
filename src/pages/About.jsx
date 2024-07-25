@@ -18,9 +18,9 @@ const About = () => {
         <p className="text-lg">This application serves as a starting point for your web development projects.</p>
       </main>
 
-      <footer className="bg-gray-100 py-4">
+      <footer className="bg-red-500 py-4">
         <div className="container mx-auto px-4 text-center">
-          <p>&copy; 2023 Bare Bones App</p>
+          <p className="text-white">&copy; 2023 Bare Bones App</p>
         </div>
       </footer>
     </div>
